@@ -771,8 +771,7 @@
   top: 0;
 }
 .chat-message-list {
-  /* height: calc(100vh - 280px); */
-  height: 80vh;
+  height: calc(100vh - 280px);
 }
 @media (max-width: 991.98px) {
   .chat-message-list {
