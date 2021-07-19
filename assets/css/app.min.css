@@ -771,11 +771,13 @@
   top: 0;
 }
 .chat-message-list {
-  height: calc(100vh - 280px);
+  /* height: calc(100vh - 280px); */
+  height: 85vh;
 }
 @media (max-width: 991.98px) {
   .chat-message-list {
-    height: calc(100vh - 320px);
+    height: 85vh;
+    /* height: calc(100vh - 320px); */
   }
 }
 .chat-group-list {
@@ -1093,11 +1095,13 @@
   background-color: #343a40;
 }
 .chat-conversation {
-  height: calc(100vh - 184px);
+  height: 85vh;
+  /* height: calc(100vh - 184px); */
 }
 @media (max-width: 991.98px) {
   .chat-conversation {
-    height: calc(100vh - 152px);
+    height: 95vh;
+    /* height: calc(100vh - 152px); */
     margin-top: 73px;
     margin-bottom: 78px;
   }
