@@ -1095,15 +1095,15 @@
   background-color: #343a40;
 }
 .chat-conversation {
-  height: 85vh;
+  height: 83vh;
   /* height: calc(100vh - 184px); */
 }
 @media (max-width: 991.98px) {
   .chat-conversation {
-    height: 95vh;
+    height: 100vh;
     /* height: calc(100vh - 152px); */
-    margin-top: 73px;
-    margin-bottom: 78px;
+    /* margin-top: 73px;
+    margin-bottom: 78px; */
   }
 }
 .chat-input-section {
