@@ -5,23 +5,27 @@
       <title>Helvetas | Chat App</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta content="Responsive Bootstrap 4 Chat App" name="description" />
-      <meta content="Themesbrand" name="author" />
+      <meta content="Helvetas" name="author" />
       <!-- App favicon -->
       <link rel="shortcut icon" href="assets/images/favicon.ico">
+
       <!-- magnific-popup css -->
       <link href="assets/libs/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css" />
-      <!-- owl.carousel css -->
 
+      <!-- owl.carousel css -->
       <link rel="stylesheet" href="assets/libs/owl.carousel/assets/owl.carousel.min.css">
+
       <link rel="stylesheet" href="assets/libs/owl.carousel/assets/owl.theme.default.min.css">
+
       <!-- Bootstrap Css -->
-      <link href="assets/css/bootstrap-dark.min.css" id="bootstrap-dark-style" rel="stylesheet" type="text/css" />
+      <!-- <link href="assets/css/bootstrap-dark.min.css" id="bootstrap-dark-style" rel="stylesheet" type="text/css" /> -->
       <link href="assets/css/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
       <!-- Icons Css -->
       <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
       <!-- App Css-->
-      <!-- <link href="assets/css/app-dark.min.css" id="app-dark-style" rel="stylesheet" type="text/css" /> -->
+      <link href="assets/css/app-dark.min.css" id="app-dark-style" rel="stylesheet" type="text/css" />
       <link href="assets/css/app.min.css" id="app-style" rel="stylesheet" type="text/css" />
+
    </head>
    <body>
       <div class="layout-wrapper d-lg-flex">
@@ -75,10 +79,10 @@
                   <div class="px-2">
                      <!-- <h5 class="mb-3 px-3 font-size-16">Recent</h5> -->
                      <div class="chat-message-list" data-simplebar>
-                        <div class="list-unstyled chat-list chat-user-list" id="userList" >
-                           <!-- <li>
-                              <a href="#">
-                                  <div class="d-flex">
+                        <div class="list-unstyled chat-list chat-user-list" >
+                           <li>
+                              <a href="#" id="userList" onclick="return myFunction();" style="display:contents;">
+                                  <!-- <div class="d-flex">
                                       <div class="chat-user-img align-self-center me-3 ms-0">
                                           <div class="avatar-xs">
                                               <span class="avatar-title rounded-circle bg-soft-primary text-primary">
@@ -91,9 +95,9 @@
                                           <p class="chat-user-message text-truncate mb-0">This theme is awesome!</p>
                                       </div>
                                       <div class="font-size-11">20 min</div>
-                                  </div>
+                                  </div> -->
                               </a>
-                          </li> -->
+                          </li>
                         </div>
                      </div>
                   </div>
@@ -179,7 +183,7 @@
                </div>
                <!-- end chat user head -->
                <!-- start chat conversation -->
-               <div class="chat-conversation p-3 p-lg-4" data-simplebar="init" id="here">
+               <div class="chat-conversation p-3 p-lg-4" data-simplebar="init">
                   <ul class="list-unstyled mb-0" id="conversation-list">
                   </ul>
                </div>
